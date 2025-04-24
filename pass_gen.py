@@ -23,7 +23,7 @@ use_special = st.checkbox("Özel Karakterler (!,^,+,%,&,...)", value=True)
 lowercase = "abcdefghijklmnoqprstuvwxyz"
 uppercase = "ABCDEFGHIJKLMNOQPRSTUVWXYZ"
 digits = "1234567890"
-special = "!'^+%&/()=?_-+*/<>.,@"
+special = "!'^+%&/()=?_-+*/<>.,@:;#{}[]"
 
 # Kullanıcıya bağlı olarak havuz oluştur
 character_pool = ""
