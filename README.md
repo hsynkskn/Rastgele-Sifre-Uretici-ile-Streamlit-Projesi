@@ -33,9 +33,9 @@ import random
 
 2. Başlık ve Tanıtım
    
-// st.markdown("<h1 style='font-size:22px;'>🔐 Rastgele Şifre Üretici</h1>", unsafe_allow_html=True)
+Rastgele Şifre Üretici
 
-4. Kullanıcıdan Girdi Alma
+3. Kullanıcıdan Girdi Alma
 
 Kullanıcıdan şu bilgiler alınır:
 
