@@ -28,8 +28,8 @@ random: Rastgele karakter seçimi
 
 # 1. Gerekli Kütüphaneleri Çağırma
 
-import streamlit as st\n
-import html\n
+import streamlit as st
+import html
 import random
 
 # 2. Başlık ve Tanıtım
