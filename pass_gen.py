@@ -52,7 +52,7 @@ if st.button("🎲 Şifre Oluştur"):
     st.markdown(
     f"""
     <p style='font-size:32px;'>
-        <span style='color:black;'>Yeni Şifre: </span>
+        <span style='color:green;'>Yeni Şifre: </span>
         <code style='color:red;'>{safe_password}</code>
     </p>
     """,
