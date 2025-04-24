@@ -1,4 +1,7 @@
 # Rastgele-Sifre-Uretici-ile-Streamlit-Projesi
+
+Uygulama Linki: https://newpassgen.streamlit.app/
+
 Giriş
 
 Güvenli şifreler oluşturmak, dijital dünyada hesaplarımızı korumak için vazgeçilmezdir. Bu projede Python dili ve Streamlit kütüphanesi kullanarak, hem özelleştirilebilir hem de modern bir web arayüzüne sahip bir şifre üretici geliştireceğiz.
