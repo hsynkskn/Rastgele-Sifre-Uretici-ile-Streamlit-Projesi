@@ -1,4 +1,6 @@
 # Rastgele-Sifre-Uretici-ile-Streamlit-Projesi
+Giriş
+
 Güvenli şifreler oluşturmak, dijital dünyada hesaplarımızı korumak için vazgeçilmezdir. Bu projede Python dili ve Streamlit kütüphanesi kullanarak, hem özelleştirilebilir hem de modern bir web arayüzüne sahip bir şifre üretici geliştireceğiz.
 
 Proje Amacı
@@ -25,13 +27,11 @@ random: Rastgele karakter seçimi
 Uygulamanın Adımları
 
 1. Gerekli Kütüphaneleri Çağırma
-
 import streamlit as st
 import html
 import random
 
 2. Başlık ve Tanıtım
-
 st.markdown("<h1 style='font-size:22px;'>🔐 Rastgele Şifre Üretici</h1>", unsafe_allow_html=True)
 
 3. Kullanıcıdan Girdi Alma
@@ -47,22 +47,19 @@ length = st.number_input("Şifre Uzunluğunu Girin", min_value=6, max_value=100,
 4. Karakter Havuzu
 
 Seçilen karakter türlerine göre havuz oluşturulur:
-
 character_pool = ""
 if use_lowercase:
     character_pool += lowercase
-# ... devam eder
+ ... devam eder
 
 5. Şifre Üretme ve Gösterim
 
 Butona tıklandığında rastgele şifre oluşturulur. Seçimler uygun değilse uyarı verilir.
-
 if st.button("🎲 Şifre Oluştur"):
     if len(character_pool) == 0:
         st.error("Lütfen en az bir karakter grubu seçin!")
 
 Sonuç, HTML ile görsel olarak zenginleştirilir:
-
 st.markdown(f"""
 <p style='font-size:32px;'>
     <span style='color:black;'>Yeni Şifre: </span>
@@ -80,6 +77,4 @@ Anlık olarak şifreyi görebilir.
 
 Güvenli, karmaşık şifreleri saniyeler içinde elde eder.
 
-Sonuç
-
-Bu mini proje, hem frontend hem de backend bìrleşimini içeren, pratik bir Streamlit uygulamasıdır. Yeni başlayanlar için öğretici ve güvenli yazılım pratiği kazandıran bir örnektir.
+Bu mini proje, hem frontend hem de backend bìrleşimini içeren, pratik bir Streamlit uygulaması olarak tasarlanarak hayata geçirilmiştir.
