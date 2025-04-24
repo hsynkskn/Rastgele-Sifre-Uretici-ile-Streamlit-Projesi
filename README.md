@@ -3,7 +3,7 @@ Giriş
 
 Güvenli şifreler oluşturmak, dijital dünyada hesaplarımızı korumak için vazgeçilmezdir. Bu projede Python dili ve Streamlit kütüphanesi kullanarak, hem özelleştirilebilir hem de modern bir web arayüzüne sahip bir şifre üretici geliştireceğiz.
 
-Proje Amacı
+# Proje Amacı
 
 Kullanıcıya:
 
@@ -14,7 +14,7 @@ Hangi karakter gruplarını kullanacağına karar verme,
 Renkli ve okunabilir bir arayüzde sonuç gösterimi
 sunar.
 
-Kullanılan Araçlar
+# Kullanılan Araçlar
 
 Python 3.x
 
@@ -24,18 +24,19 @@ HTML: Gelişmiş stil ve renk desteği
 
 random: Rastgele karakter seçimi
 
-Uygulamanın Adımları
+# Uygulamanın Adımları
 
-1. Gerekli Kütüphaneleri Çağırma
+# 1. Gerekli Kütüphaneleri Çağırma
+
 import streamlit as st
 import html
 import random
 
-2. Başlık ve Tanıtım
+# 2. Başlık ve Tanıtım
    
 Rastgele Şifre Üretici
 
-3. Kullanıcıdan Girdi Alma
+# 3. Kullanıcıdan Girdi Alma
 
 Kullanıcıdan şu bilgiler alınır:
 
@@ -45,7 +46,7 @@ Karakter tipleri (küçük, büyük harf, rakam, özel karakter)
 
 length = st.number_input("Şifre Uzunluğunu Girin", min_value=6, max_value=100, value=15, step=1)
 
-4. Karakter Havuzu
+# 4. Karakter Havuzu
 
 Seçilen karakter türlerine göre havuz oluşturulur:
 character_pool = ""
@@ -53,7 +54,7 @@ if use_lowercase:
     character_pool += lowercase
  ... devam eder
 
-5. Şifre Üretme ve Gösterim
+# 5. Şifre Üretme ve Gösterim
 
 Butona tıklandığında rastgele şifre oluşturulur. Seçimler uygun değilse uyarı verilir.
 if st.button("🎲 Şifre Oluştur"):
@@ -68,7 +69,7 @@ st.markdown(f"""
 </p>
 """, unsafe_allow_html=True)
 
-Kullanıcı Deneyimi
+# Kullanıcı Deneyimi
 
 Kullanıcılar bu uygulamada:
 
